@@ -1,2 +1,0 @@
-## NullPointerException in oracle.jdbc.driver.T4CConnection.updateSessionProperties
-Disable WiFi and try again. Specially after pc reboot, network config is not correct, disconnect and connect ethernet and retry.
