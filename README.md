@@ -26,5 +26,5 @@ docsify-auto-sidebar -d doc
 
 Add copyright to footer
 ```html
-<footer id="mb-footer" style="margin-left: 15px;margin-top: 10px"></footer>
+<br/><footer id="mb-footer" style="margin-left: 15px;margin-top: 10px"></footer>
 ```
