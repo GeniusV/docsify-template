@@ -28,3 +28,7 @@ Add copyright to footer
 ```html
 <br/><footer id="mb-footer" style="margin-left: 15px;margin-top: 10px"></footer>
 ```
+
+## Language Highlighting
+
+In `index.html`, uncomment language required.
