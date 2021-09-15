@@ -21,7 +21,7 @@ docsify serve ./doc
 ## Generate Side Bar
 
 ```bash
-docsify-auto-sidebar -d docs
+docsify-auto-sidebar -d doc
 ```
 
 Add copyright to footer
