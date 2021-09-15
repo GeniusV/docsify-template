@@ -14,5 +14,5 @@ docsify serve ./doc
 ## Generate Side Bar
 
 ```bash
-docsify generate ./doc --sidebar _sidebat.md
+docsify generate ./doc --sidebar _sidebar.md
 ```
