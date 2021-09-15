@@ -1,11 +1,30 @@
 # Docsify Template
 
 
-This is the home page
+## Develop
 
+```
+npm i docsify-cli -g
+npm i docsify-tools -g
+```
 
-## Level 2
+## Init
+```bash
+docsify init ./doc
+```
 
-### Level 3
+## Preview
+```bash
+docsify serve ./doc
+```
 
-#### Level 4
+## Generate Side Bar
+
+```bash
+docsify-auto-sidebar -d doc
+```
+
+Add copyright to footer
+```html
+<footer id="mb-footer" style="margin-left: 15px;margin-top: 10px"></footer>
+```
