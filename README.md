@@ -31,7 +31,7 @@ Add copyright to footer
 
 ## Local Only Mode
 
-By default, docsify need to internet connections to fetch js and css resources. However, by downloading all required asserts to local can avoid this.
+By default, docsify need internet connection to fetch js and css resources. However, by downloading all required asserts to local can avoid this.
 
 Steps:
 1. Download all asserts:
