@@ -1,16 +1,10 @@
 # Docsify Template
 
 
-## Develop
+## Install
 
 ```
 npm i docsify-cli -g
-npm i docsify-tools -g
-```
-
-## Init
-```bash
-docsify init ./doc
 ```
 
 ## Preview
@@ -18,18 +12,7 @@ docsify init ./doc
 docsify serve ./doc
 ```
 
-## Generate Side Bar
-
-```bash
-docsify-auto-sidebar -d doc
-```
-
-Add copyright to footer
-```html
-<br/><footer id="mb-footer" style="margin-left: 15px;margin-top: 10px"></footer>
-```
-
-## Local Only Mode
+## Offline Mode
 
 By default, docsify need internet connection to fetch js and css resources. However, by downloading all required asserts to local can avoid this.
 
