@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <meta name="referrer" content="no-referrer">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -10,6 +11,12 @@
     <style>
         body {
             overflow: auto !important;
+        }
+        .page-footer{
+            font-size: 14px !important;
+        }
+        .sidebar{
+            width: 280px !important;
         }
     </style>
     <link rel="stylesheet" href="static/docsify-toc@1.0.0/dist/toc.css">
@@ -42,6 +49,13 @@
             buttonText : 'Copy',
             errorText  : 'Error',
             successText: 'Copied'
+        },
+        footer: {
+            copy: '<span>GeniusV &copy; 2021</span>',
+            auth: 'All rights reserved.',
+            pre: '<hr/>',
+            style: 'text-align: center;',
+            class: 'page-footer',
         }
     }
 </script>
@@ -51,6 +65,7 @@
 <script src="static/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script>
 <script src="static/@markbattistella/docsify-sidebarfooter@latest"></script>
 <script src="static/docsify-copy-code"></script>
+<script src="static/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
 
 <!--prism language highlighting support-->
 <!--<script src="static/prismjs/components/prism-abap.min.js"></script>-->

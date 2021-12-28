@@ -1,3 +1,4 @@
+# plugins
 curl -L https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css --create-dirs -o ./doc/static/npm/docsify@4/lib/themes/vue.css
 curl -L https://unpkg.com/docsify-toc@1.0.0/dist/toc.css --create-dirs -o ./doc/static/docsify-toc@1.0.0/dist/toc.css
 curl -L https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css --create-dirs -o ./doc/static/npm/docsify-darklight-theme@latest/dist/style.min.css
@@ -7,6 +8,9 @@ curl -L https://unpkg.com/docsify-toc@1.0.0/dist/toc.js --create-dirs -o ./doc/s
 curl -L https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js --create-dirs -o ./doc/static/npm/docsify-darklight-theme@latest/dist/index.min.js
 curl -L https://unpkg.com/@markbattistella/docsify-sidebarfooter@latest --create-dirs -o ./doc/static/@markbattistella/docsify-sidebarfooter@latest
 curl -L https://unpkg.com/docsify-copy-code --create-dirs -o ./doc/static/docsify-copy-code
+curl -L https://unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js --create-dirs -o ./doc/static/docsify-footer-enh/dist/docsify-footer-enh.min.js
+
+# code highlighting
 curl -L https://unpkg.com/prismjs/components/prism-abap.min.js --create-dirs -o ./doc/static/prismjs/components/prism-abap.min.js
 curl -L https://unpkg.com/prismjs/components/prism-abnf.min.js --create-dirs -o ./doc/static/prismjs/components/prism-abnf.min.js
 curl -L https://unpkg.com/prismjs/components/prism-actionscript.min.js --create-dirs -o ./doc/static/prismjs/components/prism-actionscript.min.js
@@ -165,11 +169,11 @@ curl -L https://unpkg.com/prismjs/components/prism-nginx.min.js --create-dirs -o
 curl -L https://unpkg.com/prismjs/components/prism-nim.min.js --create-dirs -o ./doc/static/prismjs/components/prism-nim.min.js
 curl -L https://unpkg.com/prismjs/components/prism-nix.min.js --create-dirs -o ./doc/static/prismjs/components/prism-nix.min.js
 curl -L https://unpkg.com/prismjs/components/prism-nsis.min.js --create-dirs -o ./doc/static/prismjs/components/prism-nsis.min.js
-curl -L https://unpkg.com/prismjs/components/prism--create-dirs -objectivec.min.js --create-dirs -o ./doc/static/prismjs/components/prism--create-dirs -objectivec.min.js
-curl -L https://unpkg.com/prismjs/components/prism--create-dirs -ocaml.min.js --create-dirs -o ./doc/static/prismjs/components/prism--create-dirs -ocaml.min.js
-curl -L https://unpkg.com/prismjs/components/prism--create-dirs -opencl.min.js --create-dirs -o ./doc/static/prismjs/components/prism--create-dirs -opencl.min.js
-curl -L https://unpkg.com/prismjs/components/prism--create-dirs -openqasm.min.js --create-dirs -o ./doc/static/prismjs/components/prism--create-dirs -openqasm.min.js
-curl -L https://unpkg.com/prismjs/components/prism--create-dirs -oz.min.js --create-dirs -o ./doc/static/prismjs/components/prism--create-dirs -oz.min.js
+curl -L https://unpkg.com/prismjs/components/prism-objectivec.min.js --create-dirs -o ./doc/static/prismjs/components/prism-objectivec.min.js
+curl -L https://unpkg.com/prismjs/components/prism-ocaml.min.js --create-dirs -o ./doc/static/prismjs/components/prism-ocaml.min.js
+curl -L https://unpkg.com/prismjs/components/prism-opencl.min.js --create-dirs -o ./doc/static/prismjs/components/prism-opencl.min.js
+curl -L https://unpkg.com/prismjs/components/prism-openqasm.min.js --create-dirs -o ./doc/static/prismjs/components/prism-openqasm.min.js
+curl -L https://unpkg.com/prismjs/components/prism-oz.min.js --create-dirs -o ./doc/static/prismjs/components/prism-oz.min.js
 curl -L https://unpkg.com/prismjs/components/prism-parigp.min.js --create-dirs -o ./doc/static/prismjs/components/prism-parigp.min.js
 curl -L https://unpkg.com/prismjs/components/prism-parser.min.js --create-dirs -o ./doc/static/prismjs/components/prism-parser.min.js
 curl -L https://unpkg.com/prismjs/components/prism-pascal.min.js --create-dirs -o ./doc/static/prismjs/components/prism-pascal.min.js
