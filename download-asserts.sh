@@ -2,6 +2,7 @@
 curl -L https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css --create-dirs -o ./doc/static/npm/docsify@4/lib/themes/vue.css
 curl -L https://unpkg.com/docsify-toc@1.0.0/dist/toc.css --create-dirs -o ./doc/static/docsify-toc@1.0.0/dist/toc.css
 curl -L https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css --create-dirs -o ./doc/static/npm/docsify-darklight-theme@latest/dist/style.min.css
+curl -L https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/sun.svg --create-dirs -o ./doc/static/npm/docsify-darklight-theme@latest/icons/sun.svg
 curl -L https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js --create-dirs -o ./doc/static/npm/docsify/lib/docsify.min.js
 curl -L https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js --create-dirs -o ./doc/static/npm/docsify/lib/plugins/search.min.js
 curl -L https://unpkg.com/docsify-toc@1.0.0/dist/toc.js --create-dirs -o ./doc/static/docsify-toc@1.0.0/dist/toc.js
@@ -9,6 +10,8 @@ curl -L https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.m
 curl -L https://unpkg.com/@markbattistella/docsify-sidebarfooter@latest --create-dirs -o ./doc/static/@markbattistella/docsify-sidebarfooter@latest
 curl -L https://unpkg.com/docsify-copy-code --create-dirs -o ./doc/static/docsify-copy-code
 curl -L https://unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js --create-dirs -o ./doc/static/docsify-footer-enh/dist/docsify-footer-enh.min.js
+curl -L https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js --create-dirs -o ./doc/static/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js
+curl -L https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css --create-dirs -o ./doc/static/npm/docsify-sidebar-collapse/dist/sidebar.min.css
 
 # code highlighting
 curl -L https://unpkg.com/prismjs/components/prism-abap.min.js --create-dirs -o ./doc/static/prismjs/components/prism-abap.min.js

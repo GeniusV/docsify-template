@@ -17,6 +17,7 @@
         }
         .sidebar{
             width: 280px !important;
+            margin-left: 10px !important;
         }
     </style>
     <link rel="stylesheet" href="static/docsify-toc@1.0.0/dist/toc.css">
@@ -56,7 +57,12 @@
             pre: '<hr/>',
             style: 'text-align: center;',
             class: 'page-footer',
-        }
+        },
+        alias: {
+            '/.*/_sidebar.md': '/_sidebar.md',
+        },
+        subMaxLevel: 0,
+        sidebarDisplayLevel: 3 // set sidebar display level
     }
 </script>
 <script src="static/npm/docsify/lib/docsify.min.js"></script>

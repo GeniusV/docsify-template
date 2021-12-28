@@ -17,6 +17,7 @@
         }
         .sidebar{
             width: 280px !important;
+            margin-left: 10px !important;
         }
     </style>
     <link rel="stylesheet" href="//unpkg.com/docsify-toc@1.0.0/dist/toc.css">
@@ -56,7 +57,12 @@
             pre: '<hr/>',
             style: 'text-align: center;',
             class: 'page-footer',
-        }
+        },
+        alias: {
+            '/.*/_sidebar.md': '/_sidebar.md',
+        },
+        subMaxLevel: 0,
+        sidebarDisplayLevel: 3 // set sidebar display level
     }
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
@@ -66,6 +72,10 @@
 <script src="//unpkg.com/@markbattistella/docsify-sidebarfooter@latest"></script>
 <script src="//unpkg.com/docsify-copy-code"></script>
 <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+
+<!--docsify-sidebar-collapse https://www.npmjs.com/package/docsify-sidebar-collapse-->
+<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 
 <!--prism language highlighting support-->
 <!--<script src="//unpkg.com/prismjs/components/prism-abap.min.js"></script>-->
