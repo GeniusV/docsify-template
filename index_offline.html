@@ -19,6 +19,14 @@
             width: 280px !important;
             margin-left: 10px !important;
         }
+        .page_toc{
+            overflow: scroll;!important;
+            height: 95%;!important;
+        }
+        .page_toc::-webkit-scrollbar{
+            display: none;!important;
+
+        }
     </style>
     <link rel="stylesheet" href="static/docsify-toc@1.0.0/dist/toc.css">
     <link rel="stylesheet" href="static/npm/docsify-darklight-theme@latest/dist/style.min.css"
@@ -39,7 +47,7 @@
         },
         autoFooter: {
             name:       "GeniusV",          // company display name (required)
-            copyYear:   2021,             // start copyright year (required)
+            copyYear:   "2021 - 2022",             // start copyright year (required)
             url:        null,          // company url (optional)
             policy:     false,   // show Privacy Policy (optional)
             terms:      false,   // show Terms of Service (optional)
@@ -52,7 +60,7 @@
             successText: 'Copied'
         },
         footer: {
-            copy: '<span>GeniusV &copy; 2021</span>',
+            copy: '<span>GeniusV &copy; 2021 - 2022</span>',
             auth: 'All rights reserved.',
             pre: '<hr/>',
             style: 'text-align: center;',
@@ -62,7 +70,7 @@
             '/.*/_sidebar.md': '/_sidebar.md',
         },
         subMaxLevel: 0,
-        sidebarDisplayLevel: 3 // set sidebar display level
+        sidebarDisplayLevel: 0 // set sidebar display level
     }
 </script>
 <script src="static/npm/docsify/lib/docsify.min.js"></script>
@@ -72,6 +80,10 @@
 <script src="static/@markbattistella/docsify-sidebarfooter@latest"></script>
 <script src="static/docsify-copy-code"></script>
 <script src="static/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+
+<!--docsify-sidebar-collapse https://www.npmjs.com/package/docsify-sidebar-collapse-->
+<script src="static/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+<link rel="stylesheet" href="static/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 
 <!--prism language highlighting support-->
 <!--<script src="static/prismjs/components/prism-abap.min.js"></script>-->
